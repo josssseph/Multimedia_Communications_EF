@@ -18,3 +18,7 @@ Instalación en Ubuntu:
 ```bash
 sudo apt update
 sudo apt install ffmpeg python3-pip time
+python -m venv EF_ev
+EF_venv/bin/activate
+pip install -r requirements.txt
+
